@@ -1,0 +1,19 @@
+.flex-all-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 1030px) {
+  body {
+    background-color: aqua;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .logo {
+    justify-content: center;
+    height: 10px;
+  }
+}

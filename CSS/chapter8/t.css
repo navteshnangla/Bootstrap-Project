@@ -1,0 +1,25 @@
+.container {
+  background-color: aqua;
+  height: 455px;
+}
+.box {
+  display: inline-block;
+  border: 2px solid red;
+  transform-origin: 0;
+  transform: translate(500px, 100px);
+  /* transform: scale(3, 5); */
+  /* transform: skew(50deg, 10deg); */
+  /* transform: matrix(1, 2, 3, 4, 5); */
+  /* transform: rotateX(50deg); */
+  /* transform: rotateY(50deg) rotateZ(60deg); */
+}
+img:hover {
+  width: 50px;
+}
+img {
+  width: 546px;
+  transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: ease-in;
+  transition-delay: 1s;
+}

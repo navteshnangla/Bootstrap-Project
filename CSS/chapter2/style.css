@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  background-color: black;
+  color: blanchedalmond;
+}
+.main {
+  background-color: aqua;
+}
+.bg {
+  width: 1000px;
+  height: 1000px;
+  background-image: url(index.jpg);
+  background-repeat: no-repeat;
+  background-size: 500px;
+  border: 0px solid black;
+  background-attachment: fixed;
+  background-position: center;
+}

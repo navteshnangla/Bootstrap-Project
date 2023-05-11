@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Nunito Sans", sans-serif;
+}
+.parent {
+  background-color: #24252a;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+  align-items: center;
+  height: 10vh;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+}
+.sona {
+  display: flex;
+  /* justify-content: flex-start; */
+  /* padding: 0px;
+  margin: 0px; */
+  font-weight: 900;
+  border: 1px solid white;
+  height: 60px;
+  text-align: center;
+  width: 300px;
+  padding: 50px;
+}
+
+.sonb {
+  display: flex;
+  /* padding: 10px; */
+  flex-direction: row;
+  gap: 50px;
+}
+button {
+  width: 80px;
+  height: 30px;
+  border-radius: 50px;
+  font-size: normal;
+  background-color: #0089a6;
+  color: aliceblue;
+  border: #0089a6;
+}

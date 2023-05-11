@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 84px;
+  border: 1px solid red;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.one {
+  width: 84px;
+  height: 500px;
+  border: 1px solid black;
+}
+.account {
+  padding: 0px 20px;
+  /* border: 2px solid blue;
+  border-radius: 50%; */
+  width: 10px;
+}
+.account_name {
+  padding-left: 10px;
+}
+.two {
+  width: 84px;
+  height: 200px;
+  border: 1px solid rgb(222, 34, 34);
+}

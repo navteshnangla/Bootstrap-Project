@@ -1,0 +1,21 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.parent {
+  display: flex;
+  /* justify-content: space-between; */
+  border: 2px solid solid black;
+  gap: 20px;
+}
+.childa {
+  border: 2px solid blue;
+}
+.childb {
+  border: 2px solid red;
+  /* width: 500px; */
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  gap: 20px;
+}

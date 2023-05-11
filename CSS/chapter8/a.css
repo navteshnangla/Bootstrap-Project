@@ -1,0 +1,35 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(226, 130, 5);
+}
+.box {
+  height: 455px;
+  width: 455px;
+  background-color: brown;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* animation-name: widthAnimator;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse; */
+  /* transform: translate(500px); */
+  animation: widthAnimator 0.1s ease-in 1s infinite alternate;
+}
+img {
+  animation: widthAnimator 1s ease-in 1s infinite alternate;
+}
+@keyframes widthAnimator {
+  from {
+    width: 200px;
+    height: 200px;
+  }
+  to {
+    width: 600px;
+    height: 400px;
+  }
+}

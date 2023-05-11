@@ -1,0 +1,27 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  background-color: black;
+  height: 8vh;
+}
+li {
+  color: antiquewhite;
+  display: inline;
+}
+.yum {
+  background-color: aqua;
+  border: 4px solid rgb(244, 110, 0);
+  height: 40vh;
+  width: 80vh;
+  margin: auto;
+}
+.yum2 {
+  background-color: rgb(184, 229, 2);
+  height: 100px;
+  width: 200px;
+  /* position: relative; */
+  /* position: absolute; */
+  position: fixed;
+}
